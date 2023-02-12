@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #7b8ca0cc;
+		background: #29415ccc;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: 1px;
-		color: #ffffff;
+		color: #ffc400;
 		text-decoration: none;
 	}
 
