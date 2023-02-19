@@ -51,6 +51,7 @@ table {
 	border-spacing: 0;
 }
 
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -134,11 +135,19 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+
+
+	.h1-desc
+	{
+		text-align: left;
+	}
+	h1, h2, h3, h5, h6 {
 		color: #ffffff;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		text-align: left;
+		
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1768,7 +1777,9 @@ input, select, textarea {
 		color: #b2b2b2;
 		position: relative;
 		margin: 0 0 1.5em 0;
+		
 	}
+
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -2621,6 +2632,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+			text-align: left;
 		}
 
 		#header strong, #header b {
@@ -2647,6 +2659,7 @@ input, select, textarea {
 
 	#footer .icons {
 		margin: 1em 0 0 0;
+		text-align: center;
 	}
 
 		#footer .icons a {
@@ -3042,6 +3055,7 @@ input, select, textarea {
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
+				
 			}
 
 		/* List */
@@ -3207,6 +3221,7 @@ input, select, textarea {
 				#header h1 br {
 					display: none;
 				}
+			
 
 		/* Footer */
 
